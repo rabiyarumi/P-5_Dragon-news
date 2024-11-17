@@ -4,7 +4,6 @@ import NewsCard from '../components/NewsCard';
 
 const CategoryNews = () => {
     const {data: news} = useLoaderData()
-    // console.log(news)
     return (
         <div>
             <h1 className='font-semibold mb-6'>Dragon News Home</h1>
